@@ -1,3 +1,10 @@
+:root {
+    --bs-primary-rgb: var(--JD-primary-color-rgb);
+    --JD-primary-color: #047c00;
+    --JD-primary-color-rgb: 4, 124, 0;
+    /* --bs-btn-border-color: #fd0d37; */
+}
+
 .display-1 {
     /* text-shadow: 2px 2px 0 white; */
 }
@@ -5,4 +12,9 @@
 .heroImage figcaption {
     top: 5rem;
     right: 2rem;
+}
+
+.btn-primary {
+    background: var(--JD-primary-color);
+    border: var(--JD-primary-color);
 }
